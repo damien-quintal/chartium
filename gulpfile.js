@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var jasmine = require('gulp-jasmine');
-var babel = require('gulp-babel');
+/*var babel = require('gulp-babel');
 
 //Babel transpile
 //cmd: gulp babel
@@ -9,7 +9,7 @@ gulp.task('babel', function () {
         .pipe(babel())
         .pipe(gulp.dest('dist'));
 });
-
+*/
 //Jasmine tests
 //cmd: grunt test
 gulp.task('test', function () {
