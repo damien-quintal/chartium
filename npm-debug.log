@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/dquintal/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/Users/dquintal/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-jasmine' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'gulp-jasmine', null ]
+5 verbose cache add name=undefined spec="gulp-jasmine" args=["gulp-jasmine",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp-jasmine',
+6 verbose parsed url   path: 'gulp-jasmine',
+6 verbose parsed url   href: 'gulp-jasmine' }
+7 silly lockFile a7d490e6-gulp-jasmine gulp-jasmine
+8 verbose lock gulp-jasmine /Users/dquintal/.npm/a7d490e6-gulp-jasmine.lock
+9 silly lockFile a7d490e6-gulp-jasmine gulp-jasmine
+10 error Error: Attempt to unlock gulp-jasmine, which hasn't been locked
+10 error     at unlock (/Users/dquintal/.nvm/v0.10.35/lib/node_modules/npm/lib/utils/locker.js:44:11)
+10 error     at cb (/Users/dquintal/.nvm/v0.10.35/lib/node_modules/npm/lib/cache/add-local.js:30:5)
+10 error     at /Users/dquintal/.nvm/v0.10.35/lib/node_modules/npm/lib/cache/add-local.js:47:20
+10 error     at /Users/dquintal/.nvm/v0.10.35/lib/node_modules/npm/lib/utils/locker.js:30:7
+10 error     at cb (/Users/dquintal/.nvm/v0.10.35/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+10 error     at /Users/dquintal/.nvm/v0.10.35/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+10 error     at Object.oncomplete (fs.js:108:15)
+11 error If you need help, you may report this *entire* log,
+11 error including the npm and node versions, at:
+11 error     <http://github.com/npm/npm/issues>
+12 error System Darwin 12.5.0
+13 error command "/Users/dquintal/.nvm/v0.10.35/bin/node" "/Users/dquintal/.nvm/v0.10.35/bin/npm" "install" "--save-dev" "gulp-jasmine"
+14 error cwd /dev_exclusions/personal/chartium
+15 error node -v v0.10.35
+16 error npm -v 1.4.28
+17 verbose exit [ 1, true ]

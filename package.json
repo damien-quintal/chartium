@@ -1,0 +1,38 @@
+{
+  "name": "chartium",
+  "version": "0.0.1",
+  "description": "Responsive, light-weight, canvas charts",
+  "main": "chartium.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "babel": "^5.0.8",
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damien-quintal/chartium.git"
+  },
+  "keywords": [
+    "charts",
+    "canvas",
+    "es6",
+    "bar",
+    "line",
+    "stacked",
+    "responsive",
+    "pie"
+  ],
+  "author": "Damien Quintal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damien-quintal/chartium/issues"
+  },
+  "homepage": "https://github.com/damien-quintal/chartium"
+}
